@@ -20,10 +20,3 @@ print(insertElement(myarr,num,index))
 
 ### methods 2
 
-import array
-
-def inArr(arr,n,x,pos):
-    for i in range(n-1,pos-1,-1):
-        arr[i+1]=arr[i]
-
-    arr[pos]=x
